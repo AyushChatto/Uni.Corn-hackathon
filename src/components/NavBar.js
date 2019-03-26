@@ -19,6 +19,11 @@ export default class CustomNavBar extends Component {
             <Nav.Link eventkey={2} componentClass={Link} href="/expenditure">
               Expenditure
             </Nav.Link>
+            <Nav.Link eventkey={3} componentClass={Link} href="/timeline">
+              Journey
+            </Nav.Link>
+
+
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Chart from "./Chart";
 import "./Expenditure.css";
+import Calculator from './Calculator';
 
 class Expenditure extends Component {
   state = {};
@@ -18,6 +19,9 @@ class Expenditure extends Component {
           <Row>
             <Col xs={12} sm={9} className="main-section">
               <Chart />
+              <div className="calculator">
+              <Calculator/>
+              </div>
             </Col>
             <Col xs={12} sm={3} className="sidebar-section">
               <Image src="assets/piggybank.jpg" className="img-fluid" />

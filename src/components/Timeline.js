@@ -11,111 +11,69 @@ class Lifeline extends Component {
 <Timeline lineColor={'#ddd'}>
   <TimelineItem
     key="001"
-    dateText="11/2010 – Present"
+    dateText="Army"
     style={{ color: '#e86971' }}
   >
-    <h3>ARMY</h3>
-    <h4>Subtitle</h4>
+    <h4>Investment </h4>
     <p>
-      Investment:
-      1. Exchange-traded Fund (ETF). Examples are SPDR S&P 500 & SPDR Strait Times Index. Low starting point, low risk. Very good start to investment.
-         To learn more:
-         Basic: https://www.dbs.com.sg/personal/articles/saving-investing/beginners-guide-to-etfs-part1
-         Advanced: https://www.dbs.com.sg/personal/articles/saving-investing/beginners-guide-to-etfs-part2
+      Exchange-traded Fund (ETF). Examples are SPDR S&P 500 & SPDR Strait Times Index. Low starting point, low risk. Very good start to investment.
+        To learn more: <br/>
+        <a href="https://www.dbs.com.sg/personal/articles/saving-investing/beginners-guide-to-etfs-part1"> Basic </a> <br/>
+        <a href="https://www.dbs.com.sg/personal/articles/saving-investing/beginners-guide-to-etfs-part2">Advanced </a><br/>
     </p>
-    <p>
-      Insurance:
-      1. Chubbs-Personal Liability Insurance
-         To learn more: https://www.chubb.com/sg-en/personal/personal-liability-insurance.aspx
-      2. Chubbs-Personal Accident Insurance
-         To learn more: https://www.chubb.com/sg-en/personal/personal-accident-insurance.aspx
+    <h4>Insurance</h4>
+      <p>
+          Chubbs-Personal Liability Insurance <br/>
+          To learn more: <a href="https://www.chubb.com/sg-en/personal/personal-liability-insurance.aspx"> Click Here </a> <br/>
+          Chubbs-Personal Accident Insurance
+          To learn more: <a href="https://www.chubb.com/sg-en/personal/personal-accident-insurance.aspx"> Click Here </a> <br/>
     </p>
   </TimelineItem>
-  <TimelineItem
+    <TimelineItem
     key="002"
-    dateText="04/2009 – 11/2010"
-    dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
-    bodyContainerStyle={{
-      background: '#ddd',
-      padding: '20px',
-      borderRadius: '8px',
-      boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
-    }}
+    dateText="Higher Education"
+    style={{ color: '#e86971' }}
   >
-    <h3 style={{ color: '#61b8ff' }}>EDUCATION</h3>
-    <h4 style={{ color: '#61b8ff' }}>Subtitle</h4>
+    <h4>Loan </h4>
     <p>
-      Investment: 
-      1. If you haven't done it yet, why wait?
+        DBS Study Loan <br/>
+        To learn more: <a href="https://www.dbs.com.sg/personal/loans/education-loans/study-loan"> Click Here </a> <br/>
+        DBS Tuition Fee Loan
+        To learn more: <a href="https://www.dbs.com.sg/personal/loans/education-loans/tuition-fee-loan"> Click Here </a> <br/>
     </p>
-    <p>
-      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-      est.
+    <h4>Insurance</h4>
+      <p>
+          Traveller Shield Plus <br/>
+          To learn more: <a href="https://www.dbs.com.sg/personal/insurance/travel/travellershield-plus"> Click Here </a> <br/>
+          Overseas Student Protect
+          To learn more: <a href="https://www.dbs.com.sg/personal/insurance/travel/overseas-student-protect"> Click Here </a> <br/>
     </p>
   </TimelineItem>
-  <TimelineItem
-    key="003"
-    dateComponent={(
-      <div
-        style={{
-          display: 'block',
-          float: 'left',
-          padding: '10px',
-          background: 'rgb(150, 150, 150)',
-          color: '#fff',
-        }}
-      >
-        11/2008 – 04/2009
-      </div>
-    )}
+    <TimelineItem
+    key="002"
+    dateText="Working Life"
+    style={{ color: '#e86971' }}
   >
-    <h3>Title, Company</h3>
-    <h4>Subtitle</h4>
+    <h4>Credit </h4>
     <p>
-      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-      est.
+        DBS Live Fresh Care <br/>
+        To learn more: <a href="https://www.dbs.com.sg/personal/loans/education-loans/study-loan"> Click Here </a> <br/>
+        DBS Everyday Card <br/>
+        To learn more: <a href="https://www.dbs.com.sg/personal/loans/education-loans/study-loan"> Click Here </a> <br/>
+        Multiplier Accounts
+        To learn more: <a href="https://www.dbs.com.sg/personal/loans/education-loans/tuition-fee-loan"> Click Here </a> <br/>
     </p>
-    <p>
-      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-      est.
+    <h4>Insurance</h4>
+      <p>
+          DBS Car Insurance <br/>
+          To learn more: <a href="https://www.dbs.com.sg/personal/insurance/travel/travellershield-plus"> Click Here </a> <br/>
+          DBS Easy Protect
+          To learn more: <a href="https://www.dbs.com.sg/personal/insurance/travel/overseas-student-protect"> Click Here </a> <br/>
     </p>
-    <p>
-      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-      est.
-    </p>
-  </TimelineItem>
-  <TimelineItem
-    key="004"
-    dateText="08/2008 – 11/2008"
-    dateInnerStyle={{ background: '#76bb7f' }}
-  >
-    <h3>Title, Company</h3>
-    <h4>Subtitle</h4>
-    <p>
-      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-      est.
-    </p>
-    <p>
-      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-      est.
+        <h4>Investment</h4>
+      <p>
+          Unit Trust <br/>
+          To learn more: <a href="https://www.dbs.com.sg/personal/insurance/travel/travellershield-plus"> Click Here </a> <br/>
     </p>
   </TimelineItem>
 </Timeline>

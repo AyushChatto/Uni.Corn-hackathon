@@ -59,9 +59,6 @@ export default class Home extends Component {
           <h2>DBS iBanking</h2>
           <p>Welcome back { this.firstName() }! What may I do for you today?</p>
           <p> Last Login: { this.lastLogin() } </p>
-          <Link to="/about">
-            <Button className="primary">About</Button>
-          </Link>
         </Jumbotron>
         <Row className="show-grid text-center">
           <Col xs={12} sm={4} className="person-wrapper">
@@ -71,7 +68,7 @@ export default class Home extends Component {
               className="profile-pic"
             />
             <h3> { this.fullName() }</h3>
-            <Link to="/timeline"><p> {this.stageOfLife()} </p></Link>
+            <Link to="/timeline"><p> Stage of Life: {this.stageOfLife()} </p></Link>
           </Col>
           <Col xs={12} sm={8} className="person-wrapper">
             <h3>Your Expenditure</h3>
